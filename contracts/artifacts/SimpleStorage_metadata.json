@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,16 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "name",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_favouriteNumber",
+						"name": "_favouriteNuumber",
 						"type": "uint256"
 					}
 				],
-				"name": "addPeople",
+				"name": "addPerson",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -31,7 +31,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "listOfPeople",
+				"name": "listOfFriends",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -42,25 +42,6 @@
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "nameToFavouriteNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -121,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xe84fe0a8d6c14c1efe9e6dd2c542941a625499191f59292eee24bcdd2a8c1b0b",
+			"keccak256": "0x07f47304146bfa118526fe1cf88ad6a899dc77f3362ca375e7275abcceba3544",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2135bef39c70b66c029043931de153d7cd6d255ec9d6e9ffc921dcd024951e87",
-				"dweb:/ipfs/QmYoxVUUr36pqrETnSD2G7Gc3SWJF6XX1wDTGmKfXkqeci"
+				"bzz-raw://198f1817dfb758b449e4a44d2a97473fd9410e63c2f5d4d81f7018aa57b7f488",
+				"dweb:/ipfs/QmUsfn8Qo35vASBqoAcS3gX7ge3aXVzrtb8m1AR14vLB7c"
 			]
 		}
 	},
