@@ -7,6 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
 				"name": "MINIMUM_AMOUNT",
 				"outputs": [
 					{
@@ -65,10 +74,27 @@
 			},
 			{
 				"inputs": [],
+				"name": "i_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -107,11 +133,11 @@
 			]
 		},
 		"contracts/Solidity_basics_fund_me/FundMe.sol": {
-			"keccak256": "0x2aa1705e3e97aba081392fbdf0ee086812cf9d035b9939b9746d6bf8d8b08d70",
+			"keccak256": "0x09358de94a3beb26dfbeb02b144c41c93201a9f90b2998adb6f7d0a59a0520a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a21d7540e2dd48845d8027f3e159186f6647972c2584a08ce32cabee9f351e4d",
-				"dweb:/ipfs/QmXRZBnzu9yLRRup81Vf5BP5oNV2UhLF2Krw5gh9FzB5Yg"
+				"bzz-raw://073c84e71e47578e2500d55f2e333c30da59daf45db4db6aacb4404641668e6e",
+				"dweb:/ipfs/QmTnoZqiVaTgW8A4H99wwfcY2Rh6vDHj9kL1rnZbQNcs6P"
 			]
 		},
 		"contracts/Solidity_basics_fund_me/PriceConverter.sol": {
